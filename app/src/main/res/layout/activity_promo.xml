@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/chech"
+        tools:context=".PromoActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtClok"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textColor="#1D5D9B"
+        android:textStyle="italic"
+    android:text="Sizning davlatingizda Soat:" />
+
+    <TextClock
+        android:id="@+id/txtClok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#1D5D9B"
+        android:layout_centerInParent="true"
+        android:textSize="40sp"
+        android:textStyle="italic"/>
+
+</RelativeLayout>
